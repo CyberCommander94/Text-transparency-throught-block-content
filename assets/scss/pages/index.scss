@@ -24,6 +24,10 @@
       @include bp($desktopSmall, min) {
         width: calc(100vw);
       }
+      @include bp($desktopHd, min) {
+        top: -135px;
+        width: calc(100vw);
+      }
       @include bp($desktopFullHd, min) {
         top: -175px;
         width: calc(100vw);
@@ -74,6 +78,9 @@
         max-width: 540px;
         background-size: calc(100vw) auto;
         font-size: 56px;
+      }
+      @include bp($desktopHd, min) {
+        background-position: 0 -135px;
       }
       @include bp($desktopFullHd, min) {
         padding: 260px 0 0 100px;
