@@ -1,4 +1,4 @@
-# transparetn-text
+# transparent-text
 
 ## Build Setup
 
